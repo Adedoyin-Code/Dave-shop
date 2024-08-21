@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-size: cover;
+    width: 100%;
+}
+ 
+
+/* home */
+
+.a{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ /* navbar */
+ #navbar{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+ }
+ 
+ .navbar{
+    background: #008080;
+ }
+ #navbar .nav-item:hover .nav-link{
+    color: #FFD700!important;
+ }
+  #navbar .dropdown-menu li:hover a {
+    color: #FFD700;
+    
+  }
+
+  #navbar .dropdown-menu {
+    background-color: #008080;
+  }
+  #navbar .dropdown-menu li a{
+    color: white;
+    background: none;
+  }
+.c:hover{
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.e:hover{
+    color: #FFD700;
+    cursor: pointer;
+}
+ 
+.btnn{
+    color: white;
+    background: #FFD700;
+    padding: 6px;
+    border: 1px solid #FFD700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    opacity: 0.2%;
+}
+
+.btnn:hover{
+    opacity: 0.82;
+}
+
+
+
+
+
+
+/* products */
+
+#products{
+    background:  rgb(241, 240, 240);
+    border: 1px solid  rgb(241, 240, 240);;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    padding-bottom: 5%;
+   
+}
+
+ 
+.k{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #FFD700;
+}
+ 
+#products .card-body .card-text{
+    font-size: 60px;
+    color: #008080;
+    margin-top: 130px;
+}
+
+#products .card-body{
+    padding-bottom: 40px;
+}
+
+
+.btns{
+    padding: 7px;
+    width: 230px;
+    margin-top: 30px;
+    background: #008080;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #008080;
+    transition: all ease 0.3s;
+}
+
+.btns:hover{
+    opacity: 0.82;
+}
+
+
+
+/* category */
+
+ .category{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+ }
+
+.category .card .card-text{
+    font-size: 20px;
+}
+
+
+
+ /* sale */
+ .sale{
+    margin-top: 5%;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+ }
+ #sale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .bts{
+    padding: 7px;
+    width: 200px;
+    margin-top: 30px;
+    background: #008080;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #008080;
+    transition: all ease 0.3s;
+}
+
+.bts:hover{
+    opacity: 0.82;
+}
+
+
+
+
+
+/* others */
+
+.others{
+    margin-top: 5%;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+}
+
+ 
+.others .card .card-text{
+    font-size: 20px;
+}
+
+
+
+/* gadgets */
+
+
+.gadgets{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gadgets .card .card-text{
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+    padding-top: 4%;
+}
+
+.gadgets .card .card-textt{
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.gadgets .card{
+    margin-top: 7%;
+}
+
+.gadget-2 .card img{
+    margin-top: 8%;
+}
+
+.gadget-2 .card{
+    margin-top: 7%;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.btnnss {
+    width: 100%;
+    height: 40px;
+    max-width: 30%;
+    background-color: #FFD700;
+    border: 1px solid #FFD700;
+    columns: white;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 2%;
+    color: white;
+}
+
+.btnnss:hover{
+    opacity: 0.82;
+   
+}
+
+/* note */
+
+.notes{
+    margin-top:4% ;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 5%;
+}
+
+/* subscribe */
+.Subscribe{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.btnss{
+    padding: 7px;
+    width: 230px;
+    margin-top: 30px;
+    background: #FFD700;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #FFD700;
+    transition: all ease 0.3s;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.btnss:hover{
+    opacity: 0.82;
+}
+
+.in{
+    padding: 10px;
+    width: 500px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+/* footer */
+.footer{
+    background: #008080;
+    padding-top: 2%;
+}
+.elec{
+    color: #FFD700;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+}
+.subs{
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;   
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 17px;
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 900;
+    font-style: normal;
+    padding: 1%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gadget-2 .row {
+      display: flex;
+      justify-content: center;
+    }
+
+    .gadget-2 .card {
+      height: 100%;
+    }
+
+    .gadget-2 .col-md-4 {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 578px){
+    #sale{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sale img{
+        width: 40%;
+    }
+
+    #sale .card{
+        align-items: center;
+        justify-content: center;
+    }
+     
+  }
+
+  @media (max-width: 768px) {
+    .card-body p.card-text {
+        width: 100%;
+    }
+    #sale img{
+        width: 40%;
+    }
+    #sale{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 576px) {
+    .form-control {
+        width: 100%;
+        max-width: 100%;
+        
+    }
+    
+    .btnnss {
+        width: 100%;
+        max-width: 100%;
+        background-color: orange;
+        border: 1px solid orange;
+        columns: white;
+        cursor: pointer;
+    }
+
+    .btnnss:hover{
+        opacity: 0.82;
+        border-radius: 8px;
+    }
+}
